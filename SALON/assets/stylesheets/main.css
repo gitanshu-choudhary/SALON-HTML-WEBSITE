@@ -1,0 +1,396 @@
+/*Global Setting------------------------------------------------------------------------------*/
+body{
+    margin: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+#content{
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*HEADER--------------------------------------------------------------------------------------*/
+#header .logo{
+    margin-left: 120px;
+    width: 15%;
+}
+#header .logo img{
+    width: 100%;
+}
+#header .main-navigation{
+    width: 60%;
+}
+#header .aboutimage{
+    width: 40px;
+}
+#header .aboutimage h5{
+    width: 100%;
+}
+#header{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+#header ul li{
+    display: inline-block;
+}
+#header .main-navigation ul li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+}
+#header .main-navigation ul li{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#header .user_section{
+    margin-right: 10px;
+    padding-right: 5px;
+}
+#header .user_section ul li a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#header .user_section ul li{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#header .user_section ul li:last-child {
+    font-size: 10px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+#header .main-navigation ul li a:hover{
+    color: #C80000;   
+}
+/*DROPDOWN---------------------------------------------------------------------------------*/
+#header .main-navigation .dropdown{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 30%;
+    display: none;
+    z-index: 100;
+}
+#header .main-navigation .dropdown ul li{
+    width: 50%;
+}
+#header .main-navigation ul li:hover .dropdown{
+    display: block; 
+}
+#header .main-navigation .dropdown h1{
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#header .main-navigation .dropdown{
+    border: 1px solid #000000;
+}
+#header .main-navigation .dropdown ul li{
+    margin-bottom: 20px;
+}
+/*BIGSCREEN------------------------------------------------------------------------*/
+#bigscreen .description{
+    background-color: #999999;
+    margin-left: 80px;
+}
+#bigscreen .image img{
+    width: 100%;
+}
+#bigscreen .description p{
+    color: #F6F6F6;
+    font-weight: bolder;
+    font-size: 16px;
+}
+/*SIDESCREEN---------------------------------------------------------------------*/
+#sidescreen ul{
+    list-style: none;
+}
+#sidescreen .image{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: 100px;
+}
+#sidescreen .image img{
+    height: 100%;
+}
+#sidescreen ul li{
+    display: table-row;
+}
+#sidescreen{
+    margin-top: 20px;
+    margin-right: 18px;
+    border : 1px solid #CDCDCD;
+}
+/*TOP STORIES-----------------------------------------------------------------*/
+#topstories{
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #AAAAAA;
+    padding-bottom: 25px;
+}
+#topstories .image{
+    width: 55%;
+}
+#topstories .image img{
+    width: 100%;
+}
+#topstories .imageheading{
+    width: 40%;
+    padding-left: 8px;
+}
+#topstories .imageheading h2{
+    color: black;
+}
+#topstories .mainhead{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#topstories p{
+    font-size: 15px;
+}
+#topstories .para{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#topstories .head1{
+    color: red;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#topstories .head2{
+    color: grey;
+    font-size: 12px;
+}
+#topstories .head3{
+    color: grey;
+    font-size: 12px;
+    font-weight: bolder;    
+}
+/*VIDEO SECTION-------------------------------------------------------------*/
+#videosection{
+    position: relative;
+    width: 50%;
+    right: 40px;
+    bottom: 20px;
+}
+#videosection .image{
+    position: relative;
+}
+#videosection .play{
+    position: absolute;
+}
+#videosection .image img{
+    width: 100%;
+}
+#videosection .aboutvideo{
+    position: absolute;
+
+    width: 70%;
+    top: 350px;
+    left: 140px;
+    
+}
+#videosection .aboutvideo h4{
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+}
+#videosection .play{
+    font-size: 72px;
+    top: 375px;
+    left: 50px;
+    background-color: white;
+}
+#videosection .play a{
+    color: red;
+}
+#videosection .play i:hover{
+    background-color: black;
+}
+#videosection .playlist{
+    width: 100%;
+    border-bottom: 2px solid #CDCDCD;
+}
+#videosection .playlist ul li{
+    width: 23%;
+    margin-right: 5px;
+}
+#videosection .image11 img{
+    width: 100%;
+}
+#videosection .aboutimage11{
+    width: 100%;
+}
+#videosection ul li{
+    list-style: none;
+    display: inline-block;
+}
+/*FOLLOW US----------------------------------------------------------------*/
+#followus{
+    margin-right: 18px;
+}
+#followus .logos ul li{
+    display: inline-block;
+}
+#followus .logos ul li{
+    list-style: none;
+}
+#followus .logos{
+    width: 350px;
+    margin-top: 80px;
+    border: 2px solid #CDCDCD;
+}
+#followus .logos .lgo{
+    margin-right: 10px;
+    font-size: 30px;
+    padding: 0px;
+}
+#followus .logos .lgo1{
+    color: #3D5C9D;
+}
+#followus .logos .lgo2{
+    color: #28AAE1;
+}
+#followus .logos .lgo3{
+    color: #fb3958;
+}
+#followus .logos .lgo4{
+    color: #FF4500;
+}
+#followus .logos .lgo5{
+    color: #CA1D20;
+}
+#followus .logos .lgo6 img{
+    width: 50px;
+}
+#followus .follow{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 42px;
+}
+#followus .us{
+    margin-right: 95px;
+    margin-top: 40px;
+    color: #CD342D;
+    font-style: italic;
+    font-size: 42px;
+}
+/*VOICE LIST----------------------------------------------------------------------*/
+#voiceslist{
+    width: 30%;
+    margin-right: 100px;
+}
+#voiceslist .voices{
+    }
+#voiceslist .image{
+    width: 80px;
+    margin-top: 25px;
+}
+#voiceslist .image img{
+    width: 100%;
+}
+#voiceslist .aboutimage{
+    width: 70%;
+}
+#voiceslist .aboutimage a{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+#voiceslist ul li{
+    list-style: none;
+    display: list-item;
+}
+#voiceslist a.button {
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: white;
+    background-color: #4267B2;
+    width: 32%;
+}
+#voiceslist a.button2 {
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #4098FE;
+    background-color: #EDEDED;
+    width: 32%;
+}
+#voiceslist i{
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/*BIG NEWS------------------------------------------------------------------*/
+#bignews{
+    margin-left: 100px;
+    width: 50%;
+    border-bottom: 2px solid #CDCDCD;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+#bignews .image img{
+    width: 100%;
+}
+#bignews .aboutimage h2 a{
+    color: black;
+    font-weight: bold;
+}
+#bignews p{
+    font-weight: 400;
+}
+#bignews .head1 a{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+#bignews .head2{
+    color: #ABABAB;
+    font-weight: bold;
+}
+#bignews .head3 a{
+    color: #ABABAB;
+    font-weight: bold;
+}
+/*FOOTER SECTION-------------------------------------------------------*/
+#footer hr{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#footer a{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*PAGE END SECTION---------------------------------------------------------*/
+#pageend{
+    background-color: black;
+    background-size: 500px;
+    height: 300px;
+    margin-top: 60px;
+}
+#pageend .about{
+    padding-top: 40px;
+}
+#pageend h5{
+    padding-top: 15px;
+    color: #939393;
+}
